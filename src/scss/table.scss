@@ -1,0 +1,28 @@
+
+
+.window {
+  margin: 3em;
+
+  .windowContent {
+    height: 500px;
+    overflow-x: hidden;
+    
+    
+    .table {
+
+      .tableHead {
+        position: sticky; top: -18px;
+        margin-top: 10px;
+      }
+
+      .tableBody {
+        tr {
+
+        } :hover {
+          cursor: pointer;
+          background-color: #3A6EA5;
+        }
+      }
+    }
+  }
+}
